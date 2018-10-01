@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<meta http-equiv="Content-Type" content="UTF-8" />
+<title>Application Express SQL Workshop Guide - Contents</title>
+<meta name="generator" content="DITA Open Toolkit version 1.8.5 (Mode = doc)" />
+<meta name="dcterms.created" content="2018-05-07T23:57:15Z" />
+<meta name="robots" content="all" />
+<meta name="dcterms.title" content="Application Express SQL Workshop Guide" />
+<meta name="dcterms.identifier" content="E86883-03" />
+<meta name="dcterms.isVersionOf" content="AEUTL" />
+<meta name="dcterms.rights" content="Copyright&nbsp;&copy;&nbsp;2003, 2018, Oracle&nbsp;and/or&nbsp;its&nbsp;affiliates.&nbsp;All&nbsp;rights&nbsp;reserved." />
+<link rel="Start" href="../index.htm" title="Home" type="text/html" />
+<link rel="Copyright" href="../dcommon/html/cpyr.htm" title="Copyright" type="text/html" />
+
+<script type="application/javascript"   src="../dcommon/js/headfoot.js"></script>
+<script type="application/javascript"   src="../nav/js/doccd.js" charset="UTF-8"></script>
+<link rel="Index" href="index.htm" title="Index" type="text/html" />
+<link rel="Next" href="title.htm" title="Next" type="text/html" />
+<link rel="alternate" href="AEUTL.pdf" title="PDF version" type="application/pdf" />
+<link rel="schema.dcterms" href="http://purl.org/dc/terms/" />
+<link rel="stylesheet" href="../dcommon/css/fusiondoc.css">
+<link rel="stylesheet" type="text/css"  href="../dcommon/css/header.css">
+<link rel="stylesheet" type="text/css"  href="../dcommon/css/footer.css">
+<link rel="stylesheet" type="text/css"  href="../dcommon/css/fonts.css">
+<link rel="stylesheet" href="../dcommon/css/foundation.css">
+<link rel="stylesheet" href="../dcommon/css/codemirror.css">
+<link rel="stylesheet" type="text/css" title="Default" href="../nav/css/html5.css">
+<link rel="stylesheet" href="../dcommon/css/respond-480-tablet.css">
+<link rel="stylesheet" href="../dcommon/css/respond-768-laptop.css">
+<link rel="stylesheet" href="../dcommon/css/respond-1140-deskop.css">
+<script type="application/javascript"  src="../dcommon/js/modernizr.js"></script>
+<script type="application/javascript"  src="../dcommon/js/codemirror.js"></script>
+<script type="application/javascript"  src="../dcommon/js/jquery.js"></script>
+<script type="application/javascript"  src="../dcommon/js/foundation.min.js"></script>
+<script type="application/javascript"  src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-552992c80ef99c8d" async="async"></script>
+<script type="application/javascript"  src="../dcommon/js/jqfns.js"></script>
+<script type="application/javascript"  src="../dcommon/js/ohc-inline-videos.js"></script>
+<!-- Add fancyBox -->
+<link rel="stylesheet" href="../dcommon/fancybox/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+<script type="application/javascript"  src="../dcommon/fancybox/jquery.fancybox.pack.js?v=2.1.5"></script>
+<!-- Optionally add helpers - button, thumbnail and/or media -->
+<link rel="stylesheet"  href="../dcommon/fancybox/helpers/jquery.fancybox-buttons.css?v=1.0.5"  type="text/css" media="screen" />
+<script type="application/javascript"  src="../dcommon/fancybox/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+<script type="application/javascript"  src="../dcommon/fancybox/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+<link rel="stylesheet"  href="../dcommon/fancybox/helpers/jquery.fancybox-thumbs.css?v=1.0.7"  type="text/css" media="screen" />
+<script type="application/javascript"  src="../dcommon/fancybox/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+<link rel="schema.dcterms" href="http://purl.org/dc/terms/" />
+<script>window.ohcglobal || document.write('<script src="/en/dcommon/js/global.js">\x3C/script>')</script></head>
+<body>
+<a href="#BEGIN" class="accessibility-top skipto" tabindex="0">Go to main content</a><header><!--
+<div class="zz-skip-header"><a id="top" href="#BEGIN">Go to main content</a>--></header>
+<div class="row" id="CONTENT">
+<div class="IND large-9 medium-8 columns">
+<a id="BEGIN" name="BEGIN"></a>
+<span id="PAGE" style="display:none;">1/71</span> <!-- End Header -->
+<h1 class="toc">Contents</h1>
+<h2 class="tocheader"><a href="title.htm">Title and Copyright Information</a></h2>
+<h2 class="tocheader"><a href="preface.htm#GUID-63415B40-44AE-49D3-926D-E525E27E9E8A">Preface</a></h2>
+<ul style="list-style-type: none">
+<li><a href="preface.htm#GUID-DA14F436-D93A-4F20-B89D-591DFF50CE82">Audience</a></li>
+<li><a href="preface.htm#GUID-E409CC44-9A8F-4043-82C8-6B95CD939296">Documentation Accessibility</a></li>
+<li><a href="preface.htm#GUID-31EBF953-B42C-42AB-A88B-21CA30440C33">Related Documents</a></li>
+<li><a href="preface.htm#GUID-8AF8F9E8-1A51-4994-88FD-008D4A5C78BD">Conventions</a></li>
+</ul>
+<h2 class="tocheader"><a href="changes-in-this-release.htm#GUID-B338F097-5403-4FD0-8739-A858BD6222D5">Changes in This Release</a></h2>
+<ul style="list-style-type: none">
+<li><a href="changes-in-this-release.htm#GUID-B82B5F7A-FAE3-499D-BE0B-82F8BF3596E2">Changes in Oracle Application Express Release 18.1</a>
+<ul style="list-style-type: none">
+<li><a href="changes-in-this-release.htm#GUID-8CBE1E12-24C3-4B94-A2FA-A8C49CF42A53">New Features</a></li>
+<li><a href="changes-in-this-release.htm#GUID-C67B957F-6779-49E1-B1EF-46ECC60D121F">Deprecated and Desupported Features</a></li>
+<li><a href="changes-in-this-release.htm#GUID-E049065C-EA30-4D93-9448-B746653486E5">Other Changes</a></li>
+</ul>
+</li>
+</ul>
+<h2 class="tocheader"><a href="getting-started.htm#GUID-75135310-3884-4F6F-A434-B02DDDA09B70"><span class="secnum">1</span> Getting Started with SQL Workshop</a></h2>
+<ul style="list-style-type: none">
+<li><a href="getting-started.htm#GUID-A21B5A72-FE55-4647-B885-26F5CE6591D8"><span class="secnum">1.1</span> SQL Workshop Home Page</a></li>
+<li><a href="getting-started.htm#GUID-248C540B-7CBE-474D-BF99-8957D9556BCC"><span class="secnum">1.2</span> Selecting a Schema</a></li>
+</ul>
+<h2 class="tocheader"><a href="managing-db-objects-with-object-browser.htm#GUID-04321951-FD96-4930-8F44-0D8441E8B731"><span class="secnum">2</span> Managing Database Objects with Object Browser</a></h2>
+<ul style="list-style-type: none">
+<li><a href="accessing-object-browser.htm#GUID-886CD13B-FC90-4218-A75C-477A64D8C1D0"><span class="secnum">2.1</span> Accessing Object Browser</a></li>
+<li><a href="object-browser.htm#GUID-DA85CC70-98CC-4FF9-A209-8CA7641D62BC"><span class="secnum">2.2</span> Object Browser</a></li>
+<li><a href="searching-and-browsing-db-objects.htm#GUID-EB1B927F-1BA6-4CAA-9990-8E280A3EA886"><span class="secnum">2.3</span> Searching for and Browsing Database Objects</a></li>
+<li><a href="searching-and-selecting-db-objects.htm#GUID-D2E928DB-B1E5-4F34-8879-7D0E7BF9ABC5"><span class="secnum">2.4</span> Searching For and Selecting Database Objects</a></li>
+<li><a href="hiding-object-selection-pane.htm#GUID-86DC4829-C6CD-40D5-9EE6-1DF5ECBEF576"><span class="secnum">2.5</span> Hiding the Object Selection Pane</a></li>
+<li><a href="creating-db-objects.htm#GUID-B8426B42-53FC-4373-B654-B34C0B25776C"><span class="secnum">2.6</span> Creating Database Objects</a></li>
+<li><a href="managing-tables.htm#GUID-B21034CD-D55E-47DF-9042-237C5F98A369"><span class="secnum">2.7</span> Managing Tables</a>
+<ul style="list-style-type: none">
+<li><a href="managing-tables.htm#GUID-4ECE6D71-6189-45BA-9933-A8D6D5B52268"><span class="secnum">2.7.1</span> Creating a Table</a></li>
+<li><a href="managing-tables.htm#GUID-5FEE6A83-7898-408F-98E8-B4B57CDE394E"><span class="secnum">2.7.2</span> Browsing a Table</a></li>
+<li><a href="managing-tables.htm#GUID-224E9AAD-8889-4291-B0EC-921C9C10DAA6"><span class="secnum">2.7.3</span> Reports Available for Tables</a></li>
+<li><a href="managing-tables.htm#GUID-7CE9D743-BC88-47BC-9465-A1625B7AA535"><span class="secnum">2.7.4</span> Editing a Table</a></li>
+<li><a href="managing-tables.htm#GUID-4BDC81A5-0405-4895-9138-4EE44AB596D9"><span class="secnum">2.7.5</span> Dropping a Table</a></li>
+</ul>
+</li>
+<li><a href="managing-views.htm#GUID-CB975D7F-2C1B-4C48-9E55-5295F04F7F60"><span class="secnum">2.8</span> Managing Views</a>
+<ul style="list-style-type: none">
+<li><a href="managing-views.htm#GUID-80EA2657-998D-47AD-908E-14CA108F8070"><span class="secnum">2.8.1</span> Creating a View</a></li>
+<li><a href="managing-views.htm#GUID-759CEB89-4157-49C2-B212-2E10B003FAAB"><span class="secnum">2.8.2</span> Browsing a View</a></li>
+<li><a href="managing-views.htm#GUID-7D7BFE54-501E-4A65-9C61-FD64C0CFCCEF"><span class="secnum">2.8.3</span> Reports for Views</a></li>
+<li><a href="managing-views.htm#GUID-ABDFD40D-08BB-4E8B-BDEB-E42AD1765DEA"><span class="secnum">2.8.4</span> Editing a View Manually</a></li>
+<li><a href="managing-views.htm#GUID-282CAD24-40CE-4FC8-8ED2-DD4A9C763668"><span class="secnum">2.8.5</span> Using Find and Replace</a></li>
+<li><a href="managing-views.htm#GUID-5C9FBD1B-1BF3-4701-813D-F78753AC651C"><span class="secnum">2.8.6</span> Downloading a View</a></li>
+<li><a href="managing-views.htm#GUID-5A0CB3FD-DFDB-49CD-B882-85F0961A3E2B"><span class="secnum">2.8.7</span> Compiling a View</a></li>
+<li><a href="managing-views.htm#GUID-58F31D78-F606-473B-9C4E-6703D182D823"><span class="secnum">2.8.8</span> Dropping a View</a></li>
+</ul>
+</li>
+<li><a href="managing-indexes.htm#GUID-BE6B0473-A3B0-4696-B4CE-A0B3FD11D7E9"><span class="secnum">2.9</span> Managing Indexes</a>
+<ul style="list-style-type: none">
+<li><a href="managing-indexes.htm#GUID-E686AADC-9DCD-42F6-8E44-4CAE7EE027C7"><span class="secnum">2.9.1</span> Creating an Index</a></li>
+<li><a href="managing-indexes.htm#GUID-E49B2FF2-671F-4D0F-9F46-B1CD61CCD589"><span class="secnum">2.9.2</span> Browsing an Index</a></li>
+<li><a href="managing-indexes.htm#GUID-E8F1381E-C71C-42E0-9A22-3E5BFA2887F5"><span class="secnum">2.9.3</span> Reports for Indexes</a></li>
+<li><a href="managing-indexes.htm#GUID-5C6E7895-4F7C-46CA-9EF1-005171C30675"><span class="secnum">2.9.4</span> Dropping an Index</a></li>
+</ul>
+</li>
+<li><a href="managing-sequences.htm#GUID-E177ACD2-7FCD-4536-974B-62D7E84576C3"><span class="secnum">2.10</span> Managing Sequences</a>
+<ul style="list-style-type: none">
+<li><a href="managing-sequences.htm#GUID-34C9C823-22F2-47C3-A138-053CFF8472D5"><span class="secnum">2.10.1</span> Creating a Sequence</a></li>
+<li><a href="managing-sequences.htm#GUID-B725EA5A-331C-474F-BCB5-ECF8FD8AA867"><span class="secnum">2.10.2</span> Browsing a Sequence</a></li>
+<li><a href="managing-sequences.htm#GUID-13460BAB-8BFA-45DD-B227-628A0937E2CC"><span class="secnum">2.10.3</span> Reports for Sequences</a></li>
+<li><a href="managing-sequences.htm#GUID-95F0A78F-3C04-42C8-B7D5-02480485FA84"><span class="secnum">2.10.4</span> Dropping a Sequence</a></li>
+<li><a href="managing-sequences.htm#GUID-7E31F0E7-2574-4847-87C2-1767223FCF75"><span class="secnum">2.10.5</span> Altering a Sequence</a></li>
+</ul>
+</li>
+<li><a href="managing-types.htm#GUID-D56F71C3-8E5B-4899-BEF7-FE2D1103F492"><span class="secnum">2.11</span> Managing Types</a>
+<ul style="list-style-type: none">
+<li><a href="managing-types.htm#GUID-70640B5F-3DCB-4278-89E6-46EF6C609792"><span class="secnum">2.11.1</span> Creating a Type</a></li>
+<li><a href="managing-types.htm#GUID-73CEF144-A407-44C2-BF76-0574106A448C"><span class="secnum">2.11.2</span> Browsing a Type</a></li>
+<li><a href="managing-types.htm#GUID-446F17A6-42C6-4BC5-BEA7-82D5A3FF9AA5"><span class="secnum">2.11.3</span> Reports for Types</a></li>
+<li><a href="managing-types.htm#GUID-CA939FF6-334C-4EDD-9CC2-D71C77B35886"><span class="secnum">2.11.4</span> Dropping a Type</a></li>
+</ul>
+</li>
+<li><a href="managing-packages.htm#GUID-9405C4B0-3DDB-48A3-98DA-6164967A80E8"><span class="secnum">2.12</span> Managing Packages</a>
+<ul style="list-style-type: none">
+<li><a href="managing-packages.htm#GUID-0B587202-EA39-4B69-809B-C828DB1E62BC"><span class="secnum">2.12.1</span> Creating a Package</a></li>
+<li><a href="managing-packages.htm#GUID-2EEDDB42-8169-4373-9AD3-B73BA61F671D"><span class="secnum">2.12.2</span> Viewing a Package</a></li>
+<li><a href="managing-packages.htm#GUID-BF840016-EBA3-4116-8C59-337712B9391A"><span class="secnum">2.12.3</span> Reports for Packages</a></li>
+<li><a href="managing-packages.htm#GUID-0C9B5B64-CCAE-4228-BF5B-B4A1A78FEFDA"><span class="secnum">2.12.4</span> Editing a Package Manually</a></li>
+<li><a href="managing-packages.htm#GUID-5D5290EF-E1D6-45C8-9DC9-E1703A954D38"><span class="secnum">2.12.5</span> Compiling a Package</a></li>
+<li><a href="managing-packages.htm#GUID-4ACBC9B1-FCFC-4052-A271-760AF61647D3"><span class="secnum">2.12.6</span> Downloading a Package</a></li>
+<li><a href="managing-packages.htm#GUID-60E32984-843C-4FCC-9624-DB66FC3BFAC6"><span class="secnum">2.12.7</span> Dropping a Package While Viewing Specification</a></li>
+<li><a href="managing-packages.htm#GUID-758E293E-3AAE-4F0B-B94F-CEFF2E8E10F0"><span class="secnum">2.12.8</span> Dropping a Package While Viewing the Body</a></li>
+</ul>
+</li>
+<li><a href="managing-procedures.htm#GUID-DCA6E47C-28CB-4919-BAB9-8E6D76D0D7C3"><span class="secnum">2.13</span> Managing Procedures</a>
+<ul style="list-style-type: none">
+<li><a href="managing-procedures.htm#GUID-2A58EB42-18F6-4BD8-B8B4-3E19B354A903"><span class="secnum">2.13.1</span> Creating a Procedure</a></li>
+<li><a href="managing-procedures.htm#GUID-202AE39F-2050-44F5-B2DA-88E511B4CA1D"><span class="secnum">2.13.2</span> Browsing a Procedure</a></li>
+<li><a href="managing-procedures.htm#GUID-4A9FC1AB-96AC-47E8-8EEB-2DD692D19ED9"><span class="secnum">2.13.3</span> Reports for Procedures</a></li>
+<li><a href="managing-procedures.htm#GUID-70D973C2-9E6A-4A0E-96BF-886304F7D628"><span class="secnum">2.13.4</span> Editing a Procedure</a>
+<ul style="list-style-type: none">
+<li><a href="managing-procedures.htm#GUID-23457395-A41D-4AAD-AB95-2770BC2869FA"><span class="secnum">2.13.4.1</span> Editing a Procedure Manually</a></li>
+</ul>
+</li>
+<li><a href="managing-procedures.htm#GUID-96431A8F-860B-4162-9650-6BBEE219B4F0"><span class="secnum">2.13.5</span> Compiling a Procedure</a></li>
+<li><a href="managing-procedures.htm#GUID-1B0DAC57-EFC0-4EB4-844D-C910C5E5FE87"><span class="secnum">2.13.6</span> Downloading a Procedure</a></li>
+<li><a href="managing-procedures.htm#GUID-E8FB9E0C-49CF-4662-8585-E035C23E36B6"><span class="secnum">2.13.7</span> Dropping a Procedure</a></li>
+</ul>
+</li>
+<li><a href="managing-functions.htm#GUID-F08999A0-2780-4F2D-8A9F-766AA3A6D333"><span class="secnum">2.14</span> Managing Functions</a>
+<ul style="list-style-type: none">
+<li><a href="managing-functions.htm#GUID-8C12D356-18B4-44CB-8E7E-584FDB4920CB"><span class="secnum">2.14.1</span> Creating a Function</a></li>
+<li><a href="managing-functions.htm#GUID-EB4C8B0A-8372-4A30-BE8B-FBBABE355EF7"><span class="secnum">2.14.2</span> Browsing a Function</a></li>
+<li><a href="managing-functions.htm#GUID-B12E968A-910E-4BD7-9761-E11EA20DB31F"><span class="secnum">2.14.3</span> Reports for Functions</a></li>
+<li><a href="managing-functions.htm#GUID-081D053F-40E7-464A-8399-BF89B28E8A02"><span class="secnum">2.14.4</span> Editing a Function Manually</a></li>
+<li><a href="managing-functions.htm#GUID-4D01A7B3-E632-49FC-8288-638832C35213"><span class="secnum">2.14.5</span> Compiling a Function</a></li>
+<li><a href="managing-functions.htm#GUID-E47FC25B-04A5-419D-8EC1-78470DA70F71"><span class="secnum">2.14.6</span> Downloading a Function</a></li>
+<li><a href="managing-functions.htm#GUID-3D1646B6-6264-41B3-A1D8-DA8954A9F551"><span class="secnum">2.14.7</span> Dropping a Function</a></li>
+</ul>
+</li>
+<li><a href="managing-triggers.htm#GUID-2054B50C-53E6-4C92-9334-A055AF653177"><span class="secnum">2.15</span> Managing Triggers</a>
+<ul style="list-style-type: none">
+<li><a href="managing-triggers.htm#GUID-2E0F7EFB-4A07-46E7-998E-8C1AA47EAFEC"><span class="secnum">2.15.1</span> Creating Triggers</a></li>
+<li><a href="managing-triggers.htm#GUID-891ECF70-39CD-44C8-AD66-0ADDBE94CB44"><span class="secnum">2.15.2</span> Browsing a Trigger</a></li>
+<li><a href="managing-triggers.htm#GUID-E92D3F31-62FB-4E78-A702-07C4C08B6DE2"><span class="secnum">2.15.3</span> Reports for Triggers</a></li>
+<li><a href="managing-triggers.htm#GUID-594E6478-D70C-4FBA-A684-5431AD9E9AED"><span class="secnum">2.15.4</span> Editing a Trigger Manually</a></li>
+<li><a href="managing-triggers.htm#GUID-45B2DF12-F9F2-47B8-97F8-4CEE1AD74562"><span class="secnum">2.15.5</span> Compiling a Trigger</a></li>
+<li><a href="managing-triggers.htm#GUID-2DF8A1A1-8378-4ED1-ADF2-E48EEFF5EB3F"><span class="secnum">2.15.6</span> Downloading a Trigger</a></li>
+<li><a href="managing-triggers.htm#GUID-FE0639A8-C0F5-4DDD-8086-CA0A29899AFC"><span class="secnum">2.15.7</span> Dropping a Trigger</a></li>
+<li><a href="managing-triggers.htm#GUID-64A534B3-ED06-4B1B-933C-2EAF29ED7151"><span class="secnum">2.15.8</span> Disabling and Enabling a Trigger</a></li>
+</ul>
+</li>
+<li><a href="managing-db-links.htm#GUID-81DA77BA-1E72-4467-AB08-930F79EE5C1D"><span class="secnum">2.16</span> Managing Database Links</a>
+<ul style="list-style-type: none">
+<li><a href="managing-db-links.htm#GUID-3C7F86E1-368F-4A85-AC14-21472D022A9C"><span class="secnum">2.16.1</span> Creating a Database Link</a></li>
+<li><a href="managing-db-links.htm#GUID-E301D886-BDE2-4098-B498-651E25401A5F"><span class="secnum">2.16.2</span> Browsing a Database Link</a></li>
+<li><a href="managing-db-links.htm#GUID-9B830E76-6008-4026-AE12-AB85DB22FBDF"><span class="secnum">2.16.3</span> Reports for Database Links</a></li>
+<li><a href="managing-db-links.htm#GUID-9F8B1249-22ED-49EC-B25D-ABA5742E94B5"><span class="secnum">2.16.4</span> Dropping a Database Link</a></li>
+</ul>
+</li>
+<li><a href="managing-materialized-views.htm#GUID-9FFC8CB3-E485-4732-BC59-EFF347722F1A"><span class="secnum">2.17</span> Managing Materialized Views</a>
+<ul style="list-style-type: none">
+<li><a href="managing-materialized-views.htm#GUID-6D24DF60-9513-44C8-A471-8FA443D40623"><span class="secnum">2.17.1</span> Creating a Materialized View</a></li>
+<li><a href="managing-materialized-views.htm#GUID-FD9CE513-BB04-4046-AC9E-4C3FF4860A62"><span class="secnum">2.17.2</span> Browsing a Materialized View</a></li>
+<li><a href="managing-materialized-views.htm#GUID-946DC8CF-9988-4993-8BF7-BDB705E0BBE1"><span class="secnum">2.17.3</span> Reports for Materialized Views</a></li>
+<li><a href="managing-materialized-views.htm#GUID-2FA7EDE1-EA3D-4EA5-9904-A301A636CD87"><span class="secnum">2.17.4</span> Dropping a Materialized View</a></li>
+</ul>
+</li>
+<li><a href="managing-synonyms.htm#GUID-63CBCF39-3274-444B-A64F-C95A133C518A"><span class="secnum">2.18</span> Managing Synonyms</a>
+<ul style="list-style-type: none">
+<li><a href="managing-synonyms.htm#GUID-938A1E6A-AA41-4758-B25F-2B5441E11946"><span class="secnum">2.18.1</span> Creating Synonyms</a></li>
+<li><a href="managing-synonyms.htm#GUID-B2FD06E5-9A4F-4459-ACB5-39F6ECD1D916"><span class="secnum">2.18.2</span> Viewing a Synonym</a></li>
+<li><a href="managing-synonyms.htm#GUID-4D090C4F-F0F8-4B09-BC85-6F562845862B"><span class="secnum">2.18.3</span> Dropping a Synonym</a></li>
+</ul>
+</li>
+</ul>
+<h2 class="tocheader"><a href="using-SQL-commands.htm#GUID-41CC2FC0-F6B6-4737-B7D2-6C9C1B85310C"><span class="secnum">3</span> Using SQL Commands</a></h2>
+<ul style="list-style-type: none">
+<li><a href="SQL-commands.htm#GUID-83B68C3A-5B0D-47C9-9202-30687EA922F4"><span class="secnum">3.1</span> About SQL Commands</a></li>
+<li><a href="accessing-SQL-commands.htm#GUID-DBD08C91-D00B-47C8-A43F-6C4713C467BA"><span class="secnum">3.2</span> Accessing SQL Commands</a></li>
+<li><a href="SQL-commands-home-page.htm#GUID-ED9A2551-76D6-4320-BF4B-B986CB457CEF"><span class="secnum">3.3</span> About the SQL Commands Home Page</a></li>
+<li><a href="using-command-editor.htm#GUID-9A30095A-1FBF-42EE-B56E-0A6B96805A8A"><span class="secnum">3.4</span> Using the Command Editor</a>
+<ul style="list-style-type: none">
+<li><a href="using-command-editor.htm#GUID-D324CB81-B936-4373-B591-1278F3CF8736"><span class="secnum">3.4.1</span> Running a SQL Command</a></li>
+<li><a href="using-command-editor.htm#GUID-AF2DE958-FFA3-4BBA-8C4B-3CB79404E308"><span class="secnum">3.4.2</span> About Transactions in SQL Commands</a></li>
+<li><a href="using-command-editor.htm#GUID-7FF8A314-2B3D-4320-AA85-219A12B3553B"><span class="secnum">3.4.3</span> Disabling Transactional SQL Commands</a></li>
+<li><a href="using-command-editor.htm#GUID-90B170AB-613F-4827-8125-D99EED04ED9F"><span class="secnum">3.4.4</span> Enabling Transactional SQL Commands</a></li>
+<li><a href="using-command-editor.htm#GUID-46DD1290-2FC6-4186-B390-8DBB858E9319"><span class="secnum">3.4.5</span> About Unsupported SQL*Plus Commands</a></li>
+<li><a href="using-command-editor.htm#GUID-37A8BDE0-75F3-410A-904F-6A1CB992FF01"><span class="secnum">3.4.6</span> Terminating a Command</a></li>
+<li><a href="using-command-editor.htm#GUID-614C34BD-9645-48CD-841B-456B9DA61B58"><span class="secnum">3.4.7</span> Using Bind Variables</a></li>
+<li><a href="using-command-editor.htm#GUID-91CD675D-96C3-46AB-AAF4-6AA5BDEBF09F"><span class="secnum">3.4.8</span> Using the Find Tables Button</a></li>
+</ul>
+</li>
+<li><a href="saving-SQL-command.htm#GUID-5D0F6D7A-FE6F-42A4-882A-FAF368FBF752"><span class="secnum">3.5</span> Saving an SQL Command</a></li>
+<li><a href="copying-command.htm#GUID-4F446A5C-F35A-46EE-9D87-C2CC3E0EDDED"><span class="secnum">3.6</span> Copying a Command</a></li>
+<li><a href="viewing-results.htm#GUID-B6E4C4C6-0252-4141-A739-4AD95CACC613"><span class="secnum">3.7</span> Viewing Results</a>
+<ul style="list-style-type: none">
+<li><a href="viewing-results.htm#GUID-E9C0E37F-B1CE-4508-9D40-B80E367E1C2F"><span class="secnum">3.7.1</span> Accessing the Results Pane</a></li>
+<li><a href="viewing-results.htm#GUID-958615A7-C3EE-42D8-A3F7-E5BFAF948AE4"><span class="secnum">3.7.2</span> About the Results Pane</a></li>
+</ul>
+</li>
+<li><a href="explain-plan.htm#GUID-5C193D7C-F145-4859-8695-51FAB737402E"><span class="secnum">3.8</span> Using Explain Plan</a>
+<ul style="list-style-type: none">
+<li><a href="explain-plan.htm#GUID-347D9FF3-1872-4E11-964E-84269A3B827B"><span class="secnum">3.8.1</span> Viewing an Explain Plan</a></li>
+</ul>
+</li>
+<li><a href="saved-commands.htm#GUID-F6DA7709-9B7F-4502-9BE7-F3B649AA64B4"><span class="secnum">3.9</span> Using Saved Commands</a>
+<ul style="list-style-type: none">
+<li><a href="saved-commands.htm#GUID-8131CF81-BA90-4B08-B84E-7E8CDE9617CD"><span class="secnum">3.9.1</span> Accessing Saved Commands</a></li>
+<li><a href="saved-commands.htm#GUID-51C7ED5E-7B63-45B1-B811-E2C00E4D82D8"><span class="secnum">3.9.2</span> About the Saved SQL Pane</a></li>
+</ul>
+</li>
+<li><a href="SQL-command-history.htm#GUID-9C1B01D7-5F5C-41CE-A2B8-121903A48F6D"><span class="secnum">3.10</span> Using SQL Command History</a>
+<ul style="list-style-type: none">
+<li><a href="SQL-command-history.htm#GUID-AFF41546-FCC2-4C06-8C0E-26BB1D3B82C2"><span class="secnum">3.10.1</span> Accessing a Command from Command History</a></li>
+<li><a href="SQL-command-history.htm#GUID-8411E448-9149-4B89-BF43-FCCAC17A8626"><span class="secnum">3.10.2</span> About the History Pane</a></li>
+</ul>
+</li>
+</ul>
+<h2 class="tocheader"><a href="using-Oracle-application-express-utilities.htm#GUID-DC79742E-1BCE-43EF-B4E2-F2EC3D4376F5"><span class="secnum">4</span> Using Oracle Application Express Utilities</a></h2>
+<ul style="list-style-type: none">
+<li><a href="using-data-workshop.htm#GUID-C35417B6-D1D0-4098-BBE1-35F7BA1A2423"><span class="secnum">4.1</span> Using Data Workshop</a>
+<ul style="list-style-type: none">
+<li><a href="using-data-workshop.htm#GUID-0CAA237E-1FFB-4099-A7BB-5983DDDD40D8"><span class="secnum">4.1.1</span> About the Data Load and Unload Wizards</a></li>
+<li><a href="using-data-workshop.htm#GUID-E1729060-A1FB-405C-9143-8F8D645E2AB9"><span class="secnum">4.1.2</span> About Importing, Exporting, Loading, and Unloading Data</a></li>
+<li><a href="using-data-workshop.htm#GUID-654F74E2-2611-45F2-BE5F-C61D3B75707F"><span class="secnum">4.1.3</span> Import/Export/Load/Unload Options</a></li>
+<li><a href="using-data-workshop.htm#GUID-27DD5E1A-748C-484B-8B3A-B4D82C17C0B8"><span class="secnum">4.1.4</span> Accessing the Data Load/Unload Page</a></li>
+<li><a href="using-data-workshop.htm#GUID-8E0CFF4A-6AC6-4559-B6C0-92B6A5F73AC7"><span class="secnum">4.1.5</span> Loading Data</a>
+<ul style="list-style-type: none">
+<li><a href="using-data-workshop.htm#GUID-55B8360A-7C08-466F-B555-6A1F81AD7186"><span class="secnum">4.1.5.1</span> About Loading Data</a></li>
+<li><a href="using-data-workshop.htm#GUID-C49DC09A-D4D9-40F0-B089-4B5FF2D39ABA"><span class="secnum">4.1.5.2</span> Loading a Text File or Spreadsheet Data</a></li>
+<li><a href="using-data-workshop.htm#GUID-F86A2EDB-DDE4-4AF0-910D-24638E034D69"><span class="secnum">4.1.5.3</span> Loading an XML Document</a></li>
+</ul>
+</li>
+<li><a href="using-data-workshop.htm#GUID-DC0B8E1D-FA35-498E-AF2E-4EB737F51817"><span class="secnum">4.1.6</span> Unloading Data</a>
+<ul style="list-style-type: none">
+<li><a href="using-data-workshop.htm#GUID-F362434C-FD53-4868-B2FE-5766D3E68FC4"><span class="secnum">4.1.6.1</span> Unloading a Text File</a></li>
+<li><a href="using-data-workshop.htm#GUID-C5AF9648-0613-4377-9F84-887C0F192AA3"><span class="secnum">4.1.6.2</span> Unloading to an XML Document</a></li>
+</ul>
+</li>
+<li><a href="using-data-workshop.htm#GUID-25EF14A0-7E1F-4A09-B8FC-CC4F650DD8BD"><span class="secnum">4.1.7</span> Using the Repository</a></li>
+</ul>
+</li>
+<li><a href="using-query-builder.htm#GUID-1F074D68-9C9E-43AD-B5CA-2A978C8C99EA"><span class="secnum">4.2</span> Using Query Builder</a>
+<ul style="list-style-type: none">
+<li><a href="using-query-builder.htm#GUID-1BC771F5-E363-470A-B7CB-332889572628"><span class="secnum">4.2.1</span> Query Builder Home Page</a></li>
+<li><a href="using-query-builder.htm#GUID-BDE0C283-12DF-4E67-AD84-00153B874FA3"><span class="secnum">4.2.2</span> Accessing Query Builder</a></li>
+<li><a href="using-query-builder.htm#GUID-9F513EED-9E4F-4166-844E-A3C74C29D0AC"><span class="secnum">4.2.3</span> Understanding the Query Building Process</a></li>
+<li><a href="using-query-builder.htm#GUID-5B519ED0-0F50-4570-A421-F8958AA62569"><span class="secnum">4.2.4</span> Using the Object Selection Pane</a>
+<ul style="list-style-type: none">
+<li><a href="using-query-builder.htm#GUID-A366F1D9-BEEB-44D2-BDA9-FE134F7B3012"><span class="secnum">4.2.4.1</span> Searching and Filtering Objects</a></li>
+<li><a href="using-query-builder.htm#GUID-B81F0724-E27A-4E0A-B933-FB04307C8138"><span class="secnum">4.2.4.2</span> Hiding and Restoring the Object Selection Pane</a></li>
+<li><a href="using-query-builder.htm#GUID-42BCBE13-F8DB-4803-BA53-928BB56D120A"><span class="secnum">4.2.4.3</span> Selecting Objects</a></li>
+</ul>
+</li>
+<li><a href="using-query-builder.htm#GUID-1BFBB1AA-456C-4694-8D1A-E4840DCF352D"><span class="secnum">4.2.5</span> Using the Design Pane</a>
+<ul style="list-style-type: none">
+<li><a href="using-query-builder.htm#GUID-EAE30F5F-41F3-4B3E-9B38-E44B4D0892E1"><span class="secnum">4.2.5.1</span> About Supported Column Types</a></li>
+<li><a href="using-query-builder.htm#GUID-E3EBECA7-5F66-46B2-88F8-9BA410399ED9"><span class="secnum">4.2.5.2</span> Adding an Object to the Design Pane</a></li>
+<li><a href="using-query-builder.htm#GUID-8B8F7AB7-706F-4B56-986C-5F4A164ED04E"><span class="secnum">4.2.5.3</span> Resizing the Design and Results Panes</a></li>
+<li><a href="using-query-builder.htm#GUID-6EFCCD85-FFF0-4115-8BC0-30A66F7CED7E"><span class="secnum">4.2.5.4</span> Removing or Hiding Objects in the Design Pane</a></li>
+</ul>
+</li>
+<li><a href="using-query-builder.htm#GUID-9075C399-23BC-47B5-AD89-1FE3295F62FE"><span class="secnum">4.2.6</span> Specifying Query Conditions</a></li>
+<li><a href="using-query-builder.htm#GUID-1BB76F56-5D9C-4239-B251-F3100C1BE227"><span class="secnum">4.2.7</span> Creating Relationships Between Objects</a>
+<ul style="list-style-type: none">
+<li><a href="using-query-builder.htm#GUID-8A189786-F034-4233-9DDB-567E5202639D"><span class="secnum">4.2.7.1</span> About Join Conditions</a></li>
+<li><a href="using-query-builder.htm#GUID-EB1D9ACC-97A8-48F7-B700-147FD0DD6192"><span class="secnum">4.2.7.2</span> Joining Objects Manually</a></li>
+<li><a href="using-query-builder.htm#GUID-472FAE19-EB3C-4160-9409-D39E3959E18E"><span class="secnum">4.2.7.3</span> Joining Objects Automatically</a></li>
+</ul>
+</li>
+<li><a href="using-query-builder.htm#GUID-FCFA82BD-C8B3-4498-8410-1C4091DF9260"><span class="secnum">4.2.8</span> Working with Saved Queries</a>
+<ul style="list-style-type: none">
+<li><a href="using-query-builder.htm#GUID-61B78326-F9E9-4BA8-879D-AFD2DD1810EC"><span class="secnum">4.2.8.1</span> Saving a Query</a></li>
+<li><a href="using-query-builder.htm#GUID-7324366A-2595-495A-9152-3E3F53683EF6"><span class="secnum">4.2.8.2</span> Editing a Saved Query</a></li>
+<li><a href="using-query-builder.htm#GUID-0DF5FB2C-66FB-4FFE-85F7-5A454CF8D2A3"><span class="secnum">4.2.8.3</span> Deleting a Saved Query</a></li>
+</ul>
+</li>
+<li><a href="using-query-builder.htm#GUID-2DBA70A2-9098-46C1-8001-20DA9AD8FDD0"><span class="secnum">4.2.9</span> Viewing Generated SQL</a></li>
+<li><a href="using-query-builder.htm#GUID-E4A10BD8-C28E-4F1B-B0DD-AC74E3237927"><span class="secnum">4.2.10</span> Viewing Query Results</a></li>
+</ul>
+</li>
+<li><a href="using-quick-SQL.htm#GUID-21EE36C2-F814-48C0-90EA-7D464E9014FD"><span class="secnum">4.3</span> Using Quick SQL</a>
+<ul style="list-style-type: none">
+<li><a href="using-quick-SQL.htm#GUID-B6A3CC9F-697D-4570-9C93-9216D4355B2A"><span class="secnum">4.3.1</span> Getting Started with Quick SQL</a>
+<ul style="list-style-type: none">
+<li><a href="using-quick-SQL.htm#GUID-82052E9C-F50B-454E-9AFC-AAB85EDDDAA7"><span class="secnum">4.3.1.1</span> About Quick SQL</a></li>
+<li><a href="using-quick-SQL.htm#GUID-89A0BA18-C64D-4165-9B4D-82D043AFEC67"><span class="secnum">4.3.1.2</span> About Quick SQL Shorthand Syntax</a></li>
+<li><a href="using-quick-SQL.htm#GUID-7D03E6C4-D66D-451B-A824-E230C5A210F5"><span class="secnum">4.3.1.3</span> Accessing Quick SQL</a></li>
+</ul>
+</li>
+<li><a href="using-quick-SQL.htm#GUID-CD967EAC-E5D1-4E9E-A6CF-B82A07CC41F6"><span class="secnum">4.3.2</span> Using Quick SQL Help</a>
+<ul style="list-style-type: none">
+<li><a href="using-quick-SQL.htm#GUID-5D37C7E9-330F-42C0-99A9-659ECE0273B7"><span class="secnum">4.3.2.1</span> Accessing Quick SQL Help</a></li>
+<li><a href="using-quick-SQL.htm#GUID-62CBFB23-1AD5-4600-8AD1-F79B14BA16E3"><span class="secnum">4.3.2.2</span> About Quick SQL Help</a></li>
+</ul>
+</li>
+<li><a href="using-quick-SQL.htm#GUID-A1308899-AA1D-42EA-8CAE-B128366538FE"><span class="secnum">4.3.3</span> Generating Quick SQL with SQL Shorthand</a></li>
+<li><a href="using-quick-SQL.htm#GUID-C2EA1899-6C18-4FC8-A410-E5CC63EE2390"><span class="secnum">4.3.4</span> Saving Scripts</a>
+<ul style="list-style-type: none">
+<li><a href="using-quick-SQL.htm#GUID-6E4A8B72-D439-428A-9C99-A3C545D86220"><span class="secnum">4.3.4.1</span> Saving a SQL Script</a></li>
+<li><a href="using-quick-SQL.htm#GUID-75CD79CE-C528-4CCD-A863-32032953D2ED"><span class="secnum">4.3.4.2</span> Downloading SQL Script</a></li>
+</ul>
+</li>
+<li><a href="using-quick-SQL.htm#GUID-2193ECBE-5EFB-41A7-AF0B-3F6C46D836C6"><span class="secnum">4.3.5</span> Creating an Application from a Generated SQL Script</a></li>
+<li><a href="using-quick-SQL.htm#GUID-98AB9049-A59D-43A3-B65B-FDE1AD747300"><span class="secnum">4.3.6</span> Using Quick SQL Samples</a>
+<ul style="list-style-type: none">
+<li><a href="using-quick-SQL.htm#GUID-EDC41112-72D3-40D8-AF80-F280573D78D9"><span class="secnum">4.3.6.1</span> About Quick SQL Samples</a></li>
+<li><a href="using-quick-SQL.htm#GUID-2D4C5FFA-CFEB-4EB0-9F4E-F9AC6D7DA4E5"><span class="secnum">4.3.6.2</span> Accessing Quick SQL Samples</a></li>
+</ul>
+</li>
+<li><a href="using-quick-SQL.htm#GUID-9D2D0ECB-CFD5-474D-A712-DA2F7E5809B2"><span class="secnum">4.3.7</span> Configuring Settings</a>
+<ul style="list-style-type: none">
+<li><a href="using-quick-SQL.htm#GUID-8F8F741C-88D9-4DE0-A5FA-D3DC2CA90F61"><span class="secnum">4.3.7.1</span> About Settings</a></li>
+<li><a href="using-quick-SQL.htm#GUID-E45F9086-D628-4DEE-ACCB-FEC6D1E5EA1A"><span class="secnum">4.3.7.2</span> Configuring Settings Declaratively</a></li>
+<li><a href="using-quick-SQL.htm#GUID-660D22D6-1B27-489A-A815-E25B80A985D1"><span class="secnum">4.3.7.3</span> Configuring Settings Inline</a></li>
+</ul>
+</li>
+<li><a href="using-quick-SQL.htm#GUID-B6610861-CA63-49B4-A0C0-4305FBC0D8BE"><span class="secnum">4.3.8</span> About Database Terminology</a></li>
+<li><a href="using-quick-SQL.htm#GUID-C0D38BF1-9420-42F7-BC62-4F0305ED8ACD"><span class="secnum">4.3.9</span> Recommendations When Using Quick SQL</a></li>
+<li><a href="using-quick-SQL.htm#GUID-7EE0F687-E7F7-499E-8DAA-5090C35D4E97"><span class="secnum">4.3.10</span> About Supported Data Types</a></li>
+</ul>
+</li>
+<li><a href="using-sample-datasets.htm#GUID-FCBF7637-0FF9-4135-98FB-EC7155334EB4"><span class="secnum">4.4</span> Using Sample Datasets</a>
+<ul style="list-style-type: none">
+<li><a href="using-sample-datasets.htm#GUID-EDA07CA9-DD56-47A4-88D7-94270868A557"><span class="secnum">4.4.1</span> About Sample Datasets</a></li>
+<li><a href="using-sample-datasets.htm#GUID-81635307-2E8A-4769-A675-C46FF0A98995"><span class="secnum">4.4.2</span> Accessing Sample Datasets</a></li>
+<li><a href="using-sample-datasets.htm#GUID-046681FC-A588-4A78-A1A3-EAB0A6381CBE"><span class="secnum">4.4.3</span> Installing a Sample Dataset</a></li>
+<li><a href="using-sample-datasets.htm#GUID-0265F857-9581-4E8D-943D-DB60B4313241"><span class="secnum">4.4.4</span> Removing a Sample Dataset</a></li>
+<li><a href="using-sample-datasets.htm#GUID-B1B6C8BD-23F9-4229-B925-5256EE98131E"><span class="secnum">4.4.5</span> Refreshing a Sample Dataset</a></li>
+<li><a href="using-sample-datasets.htm#GUID-A7805AC1-B80A-452B-9155-8F6E7E16F4DB"><span class="secnum">4.4.6</span> Changing the Schema for a Sample Dataset</a></li>
+</ul>
+</li>
+<li><a href="generating-DDL.htm#GUID-0AA0AF5C-C9CD-488A-A77D-A12FFE2FE3BB"><span class="secnum">4.5</span> Generating DDL</a></li>
+<li><a href="managing-user-interface-defaults.htm#GUID-320D73C0-F50E-4167-AA2E-89D2809AC416"><span class="secnum">4.6</span> Managing User Interface Defaults</a>
+<ul style="list-style-type: none">
+<li><a href="managing-user-interface-defaults.htm#GUID-224C5A3C-2C38-4F97-9387-5854258A9D71"><span class="secnum">4.6.1</span> About User Interface Defaults</a></li>
+<li><a href="managing-user-interface-defaults.htm#GUID-39B72650-17DC-4138-AB93-A4FFDED360DA"><span class="secnum">4.6.2</span> Creating User Interface Defaults for a Table</a></li>
+<li><a href="managing-user-interface-defaults.htm#GUID-2E693ACF-3836-4B0B-8FA2-F92AF9CDCBE2"><span class="secnum">4.6.3</span> Modifying Table User Interface Defaults</a></li>
+<li><a href="managing-user-interface-defaults.htm#GUID-1A6727D5-C18E-419E-8981-5353911BE4C4"><span class="secnum">4.6.4</span> Creating User Interface Attributes</a></li>
+<li><a href="managing-user-interface-defaults.htm#GUID-D6069DC0-3EA4-4FEF-AB3E-1AC5489F4B41"><span class="secnum">4.6.5</span> Modifying User Interface Attributes</a></li>
+<li><a href="managing-user-interface-defaults.htm#GUID-C1DD98F7-080E-4ECA-BAFC-CD1D6704D636"><span class="secnum">4.6.6</span> Exporting and Importing User Interface Defaults</a></li>
+</ul>
+</li>
+<li><a href="comparing-schemas.htm#GUID-9951C644-C7BB-4D8E-962E-3C64124C4379"><span class="secnum">4.7</span> Comparing Schemas</a></li>
+<li><a href="managing-methods-on-tables.htm#GUID-429DA1C3-78E3-48B3-B22E-F082A1793D4A"><span class="secnum">4.8</span> Managing Methods on Tables</a></li>
+<li><a href="using-recycle-bin.htm#GUID-472594C2-4CA3-401F-BBB0-9E9BF4F05294"><span class="secnum">4.9</span> Using the Recycle Bin</a>
+<ul style="list-style-type: none">
+<li><a href="using-recycle-bin.htm#GUID-98A1612A-8850-4A32-A522-828462FB724F"><span class="secnum">4.9.1</span> Managing Objects in the Recycle Bin</a></li>
+<li><a href="using-recycle-bin.htm#GUID-DB4CAEBA-CCBB-42C2-B1B8-F41227CA285A"><span class="secnum">4.9.2</span> Emptying the Recycle Bin Without Viewing the Objects</a></li>
+</ul>
+</li>
+<li><a href="viewing-object-reports.htm#GUID-1B7E4EB3-478F-445F-9850-B11299BB449E"><span class="secnum">4.10</span> Viewing Object Reports</a>
+<ul style="list-style-type: none">
+<li><a href="viewing-object-reports.htm#GUID-AD39D0A8-C186-45E1-AA74-E00C4C5E6559"><span class="secnum">4.10.1</span> Viewing Table Reports</a></li>
+<li><a href="viewing-object-reports.htm#GUID-E40F4E4B-2E77-44DD-B33A-39E28A89E2F7"><span class="secnum">4.10.2</span> Viewing PL/SQL Reports</a>
+<ul style="list-style-type: none">
+<li><a href="viewing-object-reports.htm#GUID-ADE5F7B4-B025-40FC-9EF0-51D509C02EF3"><span class="secnum">4.10.2.1</span> Viewing Package Input and Output Parameters</a></li>
+<li><a href="viewing-object-reports.htm#GUID-EBC12C9E-BD80-439F-891B-9FDC69120569"><span class="secnum">4.10.2.2</span> Viewing the Number of Lines of Code for an Object</a></li>
+<li><a href="viewing-object-reports.htm#GUID-F6434217-96FA-48BD-88A0-DED8CC0C82EA"><span class="secnum">4.10.2.3</span> Searching PL/SQL Source Code</a></li>
+</ul>
+</li>
+<li><a href="viewing-object-reports.htm#GUID-9E5B9915-01A8-4F99-9E6C-60011D12DA43"><span class="secnum">4.10.3</span> Viewing Exception Reports</a></li>
+<li><a href="viewing-object-reports.htm#GUID-1393A4B8-26B6-41BF-921C-CE59A9901643"><span class="secnum">4.10.4</span> Viewing Security Reports</a></li>
+<li><a href="viewing-object-reports.htm#GUID-E63075F6-C2A0-4F9A-B778-5B9F678F158B"><span class="secnum">4.10.5</span> Viewing All Object Reports</a></li>
+</ul>
+</li>
+<li><a href="viewing-db-details.htm#GUID-AE3E288B-E4BE-4352-931B-B120ED8D4123"><span class="secnum">4.11</span> Viewing Database Details</a></li>
+<li><a href="monitoring-db.htm#GUID-4894E6E8-F2BA-4675-AEE5-E200EB1E154F"><span class="secnum">4.12</span> Monitoring the Database</a>
+<ul style="list-style-type: none">
+<li><a href="monitoring-db.htm#GUID-F88A5ABD-BDAB-40AB-B473-CD76BB9A997E"><span class="secnum">4.12.1</span> Accessing Session Page Reports</a>
+<ul style="list-style-type: none">
+<li><a href="monitoring-db.htm#GUID-4A2DD256-A504-4B0E-B1CB-A5F28E9BC821"><span class="secnum">4.12.1.1</span> Accessing Reports on the Session Page</a></li>
+<li><a href="monitoring-db.htm#GUID-4D12F990-3F83-4D99-B798-D3F5097D32C2"><span class="secnum">4.12.1.2</span> Creating Sessions Reports</a></li>
+<li><a href="monitoring-db.htm#GUID-34791249-9B65-49F8-BD76-C71EBC2745FC"><span class="secnum">4.12.1.3</span> Controlling the Number of Rows for Locks Reports</a></li>
+<li><a href="monitoring-db.htm#GUID-4D4A7E2D-58E4-4800-A0D3-0DE1F56BBD08"><span class="secnum">4.12.1.4</span> Creating Waits Reports</a></li>
+<li><a href="monitoring-db.htm#GUID-AF43E71B-0564-4714-8A63-F5C6F8BEC490"><span class="secnum">4.12.1.5</span> Creating I/O Reports</a></li>
+<li><a href="monitoring-db.htm#GUID-25FD5906-F811-44F3-B4D0-3A57471FE1A4"><span class="secnum">4.12.1.6</span> Creating SQL Reports</a></li>
+<li><a href="monitoring-db.htm#GUID-C16A144D-5BA3-4DDD-B52A-897E72DD54B2"><span class="secnum">4.12.1.7</span> Creating Open Cursors Report</a></li>
+</ul>
+</li>
+<li><a href="monitoring-db.htm#GUID-73BDE346-5F03-4EF1-9C43-5E0D596D1357"><span class="secnum">4.12.2</span> System Statistics</a></li>
+<li><a href="monitoring-db.htm#GUID-14A4DEDE-9E22-4E0B-9B9E-BA294B5C613D"><span class="secnum">4.12.3</span> Viewing System Statistics</a></li>
+<li><a href="monitoring-db.htm#GUID-2E25022D-3A26-4EB0-A067-DDF95397C157"><span class="secnum">4.12.4</span> About Top SQL Page</a></li>
+<li><a href="monitoring-db.htm#GUID-9B9C6BBB-3F41-49FE-82B4-9873D8F81773"><span class="secnum">4.12.5</span> Viewing Top SQL Page</a></li>
+<li><a href="monitoring-db.htm#GUID-5FCC34EE-DF96-41A5-95B5-444A899141C6"><span class="secnum">4.12.6</span> About Long Operations Page</a></li>
+<li><a href="monitoring-db.htm#GUID-96AD4A90-7E2F-479B-BAA5-1C6075920F97"><span class="secnum">4.12.7</span> Viewing the Long Operations Page</a></li>
+</ul>
+</li>
+</ul>
+<h2 class="tocheader"><a href="using-SQL-scripts.htm#GUID-7288B4B4-E00C-4DC4-89EA-5FA52623A1EF"><span class="secnum">5</span> Using SQL Scripts</a></h2>
+<ul style="list-style-type: none">
+<li><a href="SQL-scripts.htm#GUID-BD5FAC53-261E-4785-A656-9D3AD7D49114"><span class="secnum">5.1</span> About SQL Scripts</a></li>
+<li><a href="accessing-SQL-scripts.htm#GUID-3A17BAC4-FEDD-4188-82DD-0148CA6768F2"><span class="secnum">5.2</span> Accessing SQL Scripts</a></li>
+<li><a href="about-SQL-scripts-page.htm#GUID-2E5753E0-8F8E-405B-B4C3-DD616B0C0A61"><span class="secnum">5.3</span> About the SQL Scripts Page</a></li>
+<li><a href="about-tasks-list.htm#GUID-67DE22C8-8E09-4A5C-A7BA-652A6DA4C91B"><span class="secnum">5.4</span> About the Tasks List</a></li>
+<li><a href="creating-SQL-script.htm#GUID-86439466-5EEF-4FF9-9AFE-B3D2683305C1"><span class="secnum">5.5</span> Creating a SQL Script</a>
+<ul style="list-style-type: none">
+<li><a href="creating-SQL-script.htm#GUID-9C6F1E7D-6BB7-4285-AB15-62EFF24DF96E"><span class="secnum">5.5.1</span> Creating a SQL Script in the Script Editor</a></li>
+<li><a href="creating-SQL-script.htm#GUID-F1CA58DD-410F-403C-BF3C-FAF707DCB238"><span class="secnum">5.5.2</span> Uploading a SQL Script</a></li>
+</ul>
+</li>
+<li><a href="using-script-editor.htm#GUID-BC7C24CE-692D-4C3F-8A1C-1AA4244BE66A"><span class="secnum">5.6</span> Using the Script Editor</a>
+<ul style="list-style-type: none">
+<li><a href="using-script-editor.htm#GUID-635FC149-1292-4EAA-BA07-B75CB356F0E4"><span class="secnum">5.6.1</span> Editing an Existing Script</a></li>
+<li><a href="using-script-editor.htm#GUID-FC82F773-BF02-40F9-83D1-1A9468A0A654"><span class="secnum">5.6.2</span> Script Editor Controls</a></li>
+</ul>
+</li>
+<li><a href="deleting-SQL-script.htm#GUID-40C4FF73-5E5C-4DE6-8093-D18C53C4115A"><span class="secnum">5.7</span> Deleting a SQL Script</a>
+<ul style="list-style-type: none">
+<li><a href="deleting-SQL-script.htm#GUID-FB68CACD-8E85-46EF-B93B-9C29CD133B59"><span class="secnum">5.7.1</span> Deleting Scripts from the SQL Scripts Page</a></li>
+<li><a href="deleting-SQL-script.htm#GUID-8F9FFCCF-EAEE-4714-8E38-3D38CF6D92F3"><span class="secnum">5.7.2</span> Deleting a Script in the Script Editor</a></li>
+</ul>
+</li>
+<li><a href="copying-SQL-script.htm#GUID-EFC67F3C-B607-4123-B6ED-67534A901923"><span class="secnum">5.8</span> Copying a SQL Script</a></li>
+<li><a href="executing-SQL-script.htm#GUID-5BEC52D9-F4F5-4DC9-B012-41647B37B3FA"><span class="secnum">5.9</span> Executing a SQL Script</a>
+<ul style="list-style-type: none">
+<li><a href="executing-SQL-script.htm#GUID-7EDFCB2C-6E33-4B0A-B6D2-947FA7E1B230"><span class="secnum">5.9.1</span> Executing a SQL Script in the Script Editor</a></li>
+<li><a href="executing-SQL-script.htm#GUID-F0FDF9A8-0C4B-4F4E-A088-98A140012FBD"><span class="secnum">5.9.2</span> Executing a SQL Script from the SQL Scripts Page</a></li>
+</ul>
+</li>
+<li><a href="viewing-SQL-script-results.htm#GUID-6751D843-F337-46A3-9879-DC62F09EF335"><span class="secnum">5.10</span> Viewing SQL Script Results</a></li>
+<li><a href="exporting-and-importing-SQL-scripts.htm#GUID-B4B44422-A910-4E14-B6F7-B0CB1E848B52"><span class="secnum">5.11</span> Exporting and Importing SQL Scripts</a>
+<ul style="list-style-type: none">
+<li><a href="exporting-and-importing-SQL-scripts.htm#GUID-963AA4E0-C45F-4EE6-9CAA-051FF0C0E234"><span class="secnum">5.11.1</span> Copying Scripts to an Export Script</a></li>
+<li><a href="exporting-and-importing-SQL-scripts.htm#GUID-E43A37A3-B4EF-400A-BA43-731A549893BB"><span class="secnum">5.11.2</span> Importing Scripts</a></li>
+</ul>
+</li>
+<li><a href="viewing-script-and-result-quotas.htm#GUID-9229BC9F-5425-47C6-91CB-7795077024AB"><span class="secnum">5.12</span> Viewing Script and Result Quotas</a></li>
+</ul>
+<h2 class="tocheader"><a href="using-RESTful-services.htm#GUID-9EF9F122-554D-40C3-B14D-70C3ACF1A48D"><span class="secnum">6</span> Enabling Data Exchange with RESTful Services</a></h2>
+<ul style="list-style-type: none">
+<li><a href="what-is-REST.htm#GUID-A3CF9098-52B6-4064-93D2-CC9DC0B4AB38"><span class="secnum">6.1</span> What Is REST?</a></li>
+<li><a href="about-Oracle-RESTful-services.htm#GUID-DD051429-0B3C-4DBD-995C-95088D6AC719"><span class="secnum">6.2</span> About Oracle RESTful Services</a></li>
+<li><a href="RESTful-service-requirements.htm#GUID-72BA915C-2305-4957-8446-77E81098B8E9"><span class="secnum">6.3</span> RESTful Service Requirements</a></li>
+<li><a href="accessing-RESTful-services.htm#GUID-0142DB17-2A5F-4135-892F-E3751F11776F"><span class="secnum">6.4</span> How to Access RESTful Services</a>
+<ul style="list-style-type: none">
+<li><a href="accessing-RESTful-services.htm#GUID-0D67C4ED-0491-48D9-B463-3930334D197C"><span class="secnum">6.4.1</span> Accessing RESTful Services</a></li>
+<li><a href="accessing-RESTful-services.htm#GUID-DE5D8763-A650-4FBA-9CC5-17E141C8406C"><span class="secnum">6.4.2</span> Registering Schema with ORDS</a></li>
+<li><a href="accessing-RESTful-services.htm#GUID-A25B4302-15EC-4B6C-A443-46003DF966B6"><span class="secnum">6.4.3</span> About ORDS RESTful Services Dashboard</a></li>
+</ul>
+</li>
+<li><a href="how-to-create-RESTful-service-module-example.htm#GUID-65379747-EC71-4745-8DE2-FB5198FFF21E"><span class="secnum">6.5</span> How to Create the ORDS Based RESTful Services Module Example</a>
+<ul style="list-style-type: none">
+<li><a href="how-to-create-RESTful-service-module-example.htm#GUID-F26D6029-9548-4C2B-B290-ABCDC69F4564"><span class="secnum">6.5.1</span> About the Example RESTful Service Module (oracle.example.hr)</a></li>
+<li><a href="how-to-create-RESTful-service-module-example.htm#GUID-0094FBF3-0141-4AFE-9C85-7B47834ECF7C"><span class="secnum">6.5.2</span> Returning the Result Set Based on a PL/SQL Block (<code class="codeph">empsecformat/:empname</code>)</a></li>
+<li><a href="how-to-create-RESTful-service-module-example.htm#GUID-2617C267-3D76-40C4-9994-F48ED7EEABAB"><span class="secnum">6.5.3</span> Returning the Result Set in JSON Format with Pagination Set (<code class="codeph">employees/</code>)</a></li>
+<li><a href="how-to-create-RESTful-service-module-example.htm#GUID-E9619F2A-DA9C-4F9D-A7B4-88207AA27CF1"><span class="secnum">6.5.4</span> Retrieving Data Based on a Parameter (<code class="codeph">employees/:id</code>)</a></li>
+<li><a href="how-to-create-RESTful-service-module-example.htm#GUID-0C81C254-8BAE-49BB-8182-1A644B8F9635"><span class="secnum">6.5.5</span> Returning the Result Set in CSV Format (<code class="codeph">empinfo/</code>)</a></li>
+<li><a href="how-to-create-RESTful-service-module-example.htm#GUID-32A996FC-5AA4-47FF-8061-E95F90E1D5E7"><span class="secnum">6.5.6</span> Returning the Result Set as a Feed (<code class="codeph">employeesfeed</code>/)</a></li>
+</ul>
+</li>
+<li><a href="managing-RESTful-service-modules.htm#GUID-BD4AE588-7033-47CF-8CD5-22386B80BCB4"><span class="secnum">6.6</span> Managing RESTful Service Modules</a>
+<ul style="list-style-type: none">
+<li><a href="managing-RESTful-service-modules.htm#GUID-C2D70748-ED0E-4735-A417-9CBA97816654"><span class="secnum">6.6.1</span> Installing a Sample RESTful Service Module with Schema ORDS not Enabled</a></li>
+<li><a href="managing-RESTful-service-modules.htm#GUID-C9D9D681-63D9-4729-B8AA-A77639427B50"><span class="secnum">6.6.2</span> Installing a Sample RESTful Service Module with Schema ORDS Enabled</a></li>
+<li><a href="managing-RESTful-service-modules.htm#GUID-6AA3593C-BE29-485D-B974-CEAA092AFA14"><span class="secnum">6.6.3</span> Creating an ORDS RESTful Service Module</a></li>
+<li><a href="managing-RESTful-service-modules.htm#GUID-BA8EE449-E4E7-47E1-AF42-34574AEA9860"><span class="secnum">6.6.4</span> Editing an ORDS RESTful Service Module</a></li>
+<li><a href="managing-RESTful-service-modules.htm#GUID-2E0602DB-A536-46FC-A089-3F632CBD48BA"><span class="secnum">6.6.5</span> Deleting an ORDS RESTful Service Module</a></li>
+<li><a href="managing-RESTful-service-modules.htm#GUID-4D3A0ED7-FD95-4262-BA60-3200743E6E74"><span class="secnum">6.6.6</span> Managing an ORDS RESTful Service Privileges</a></li>
+<li><a href="managing-RESTful-service-modules.htm#GUID-EF6A9DE5-A6CB-43E7-9462-35DBA2C73901"><span class="secnum">6.6.7</span> Assigning Privileges to an ORDS RESTful Service Modules</a></li>
+<li><a href="managing-RESTful-service-modules.htm#GUID-C1F13913-8297-4B56-BEF9-C00871BE8C52"><span class="secnum">6.6.8</span> Creating an ORDS RESTful Service Privilege</a></li>
+<li><a href="managing-RESTful-service-modules.htm#GUID-36F65BAE-26EF-4258-8C82-69ABA44BB4B9"><span class="secnum">6.6.9</span> Editing an RESTful Service Privilege</a></li>
+<li><a href="managing-RESTful-service-modules.htm#GUID-AD13CB39-8253-4BFC-AA03-19758F3DE419"><span class="secnum">6.6.10</span> Deleting an ORDS RESTful Service Privilege</a></li>
+<li><a href="managing-RESTful-service-modules.htm#GUID-9400FA28-F54F-46A4-A30C-224263894F56"><span class="secnum">6.6.11</span> Exporting an ORDS RESTful Service Module</a></li>
+<li><a href="managing-RESTful-service-modules.htm#GUID-4523042C-4E74-4A95-AF45-3461EEB70511"><span class="secnum">6.6.12</span> Importing an ORDS RESTful Service Module</a></li>
+<li><a href="managing-RESTful-service-modules.htm#GUID-2275F122-E95E-4099-B2E8-BCDA08FEAAAF"><span class="secnum">6.6.13</span> Generating a Swagger Document</a></li>
+</ul>
+</li>
+<li><a href="managing-resource-templates.htm#GUID-7411E780-0FF9-4F21-98AE-EB91B623E756"><span class="secnum">6.7</span> Managing Resource Templates</a>
+<ul style="list-style-type: none">
+<li><a href="managing-resource-templates.htm#GUID-F013C572-2CA9-4FF6-A6F8-5AD0A2D5437A"><span class="secnum">6.7.1</span> Adding a Resource Template</a></li>
+<li><a href="managing-resource-templates.htm#GUID-7A10A300-23FB-4523-8A35-EF2781DC4669"><span class="secnum">6.7.2</span> Editing a Resource Template</a></li>
+<li><a href="managing-resource-templates.htm#GUID-DB98F445-2EAA-4B60-8B5E-A72C55497764"><span class="secnum">6.7.3</span> Deleting a Resource Template</a></li>
+</ul>
+</li>
+<li><a href="managing-resource-handlers.htm#GUID-07024EE8-4772-46D1-A23D-803666AB644F"><span class="secnum">6.8</span> Managing Resource Handlers</a>
+<ul style="list-style-type: none">
+<li><a href="managing-resource-handlers.htm#GUID-F29CA231-710C-44E4-8079-88F4100EA54D"><span class="secnum">6.8.1</span> Adding a Resource Handler</a></li>
+<li><a href="managing-resource-handlers.htm#GUID-C174D282-60A6-4305-A0F4-4DA77FE0F401"><span class="secnum">6.8.2</span> Editing a Resource Handler</a></li>
+<li><a href="managing-resource-handlers.htm#GUID-2B0117B8-43F9-41A4-9608-FEF0EC344B5A"><span class="secnum">6.8.3</span> Deleting a Resource Handler</a></li>
+</ul>
+</li>
+</ul>
+<h2 class="tocheader"><a href="index.htm">Index</a></h2>
+</div>
+<!-- class="ind" -->
+<!-- Start Footer -->
+</div>
+<!-- add extra wrapper close div-->
+<footer><!--
+<hr />
+<table class="cellalignment1">
+<tr>
+<td class="cellalignment13">
+<table class="cellalignment18">
+<tr>
+<td class="cellalignment5"><a href="title.htm"><img width="24" height="24" src="../dcommon/gifs/rightnav.gif" alt="Go to next page" /><br />
+<span class="icon">Next</span></a></td>
+</tr>
+</table>
+</td>
+<td class="cellalignment-copyrightlogo"><img width="144" height="18" src="../dcommon/gifs/oracle.gif" alt="Oracle" /><br />
+Copyright&nbsp;&copy;&nbsp;2003, 2018, Oracle&nbsp;and/or&nbsp;its&nbsp;affiliates.&nbsp;All&nbsp;rights&nbsp;reserved.<br />
+<a href="../dcommon/html/cpyr.htm">Legal Notices</a></td>
+<td class="cellalignment15">
+<table class="cellalignment17">
+<tr>
+<td class="cellalignment5"><a href="../index.htm"><img width="24" height="24" src="../dcommon/gifs/doclib.gif" alt="Go to Documentation Home" /><br />
+<span class="icon">Home</span></a></td>
+<td class="cellalignment5"><a href="../nav/portal_booklist.htm"><img width="24" height="24" src="../dcommon/gifs/booklist.gif" alt="Go to Book List" /><br />
+<span class="icon">Book List</span></a></td>
+<td class="cellalignment5"><a href="index.htm"><img width="24" height="24" src="../dcommon/gifs/index.gif" alt="Go to Index" /><br />
+<span class="icon">Index</span></a></td>
+<td class="cellalignment5"><a href="../dcommon/html/feedback.htm"><img width="24" height="24" src="../dcommon/gifs/feedbck2.gif" alt="Go to Feedback page" /><br />
+<span class="icon">Contact Us</span></a></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+--></footer>
+<noscript>
+<p>Scripting on this page enhances content navigation, but does not change the content in any way.</p>
+</noscript>
+</body>
+</html>
